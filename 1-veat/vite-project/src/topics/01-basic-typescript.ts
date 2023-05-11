@@ -13,8 +13,16 @@ const personaje: Character={
     hp: 200,
     skills: ['poder','fuerza'],
 }
-
-
+//Functions
+function addNumbers(a:number, b:number){
+    return a+b;
+}
+const result: number = addNumbers(1,2);
+console.log(result)
+//Funcion flecha
+const arrowFunc = (a:number, b:number): string =>{
+    return `a+b`//es lo mismo  que -->   return (a+b).toString();
+}
 
 
 
