@@ -127,3 +127,12 @@ const [total, totalTax] = textCalculator1({
 console.log('Total ', result1[0]);
 console.log('Tax ', result1[1])
 
+//Operador ??   
+// ? Si el valor es null o undefined , le asigna el valor q le paso
+// ! obligo ya que aseguro que va a llegar lo que digo 
+//EJ:
+const user = {
+    name: 'Juan',
+}
+ const u = user?.name ||'No existe usuario' // Con el || lo que hago es q si no se cumple la condicion le asigno un valor que le paso
+ const u2 = user!.name ||'No existe usuario' // Aca le digo que si o si va a llegar el valor

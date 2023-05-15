@@ -2,9 +2,6 @@
 //Seteo lo que necesito con export
 import { Product, textCalculator1, TaxtCalculation } from './01-basic-typescript';
 
-
-
-
 const shoppingCard : Product[]=[
     {
         desc:'Iphone',
@@ -24,3 +21,5 @@ const [total,taxis] = textCalculator1({tax: lista.tax,products:lista.products})
 
 console.log('Total',total);
 console.log('Tax', taxis)
+
+
